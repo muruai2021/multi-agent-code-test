@@ -1,25 +1,14 @@
 ---
 name: multi-agent-code-test
 description: Use when 需要生成测试、编写单元测试、集成测试、E2E测试或进行测试覆盖率分析
+version: 1.0.0
+author: Muru AI
+license: MIT
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [testing, unit-test, integration-test, e2e-test, test-coverage, multi-agent]
-    activation:
-      include:
-        - "write tests"
-        - "generate tests"
-        - "编写测试"
-        - "生成测试"
-        - "单元测试"
-        - "集成测试"
-        - "E2E test"
-        - "test coverage"
-        - "测试覆盖率"
-        - "add tests"
-      exclude:
-        - "review code"
-        - "code review"
-        - "just read"
+    related_skills: [multi-agent-code-review, multi-agent-code-evaluation, multi-agent-skill-factory]
 ---
 
 # multi-agent-code-test
